@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markup2</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: gray;
+        }
+
+        .flexBox1 {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            background-color: black;
+            height: 100%;
+        }
+
+        .column{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+        }
+
+        .card{
+            width: 400px;
+            height: 200px;
+            margin-top: 15px;
+            border-radius: 1em;
+            background-color: rgb(46, 45, 50);
+        }
+        
+        .card.next{
+            margin-left: 15px;
+        }
+
+        .img{
+            height: 100%;
+            width: 100%;
+            border-top-left-radius: 1em;
+            border-bottom-left-radius: 1em;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-image: url("https://rickandmortyapi.com/api/character/avatar/2.jpeg");
+        }
+
+        .info{
+            width: 100%;
+            
+        }
+
+        .infoText{
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+            color: white;
+            height: 100%;
+            justify-content: top;
+            margin-top: 10px;
+            gap: 30px;
+        }
+        .name{
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .status{
+            font-weight: bold;
+        }
+
+        .location{
+            color: gray;
+        }        
+
+        .answer{
+            color: lightgrey;
+        }
+
+        .infoText2{
+            
+        }
+
+        .infoText3{
+            
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="flexBox1">
+
+        <div class="column">
+
+            <div class="row">
+
+                <div class="card">
+                    
+                    <div class="row">
+                        
+                        <div class="img"></div>
+
+                        <div class="info">
+
+                            <div class="infoText">
+
+                                <div class="infoText1">
+                                    <div class="name">Morthy</div>
+                                    <div class="status">
+                                        &#128994;Alive - Human</div>
+                                </div>
+
+                                <div class="infoText2">
+                                    <div class="location">Last know location:</div>
+                                    <div class="answer">Planet Earth</div>
+                                </div>
+
+                                <div class="infoText3">
+                                    <div class="location">First seen In:</div>
+                                    <div class="answer">His house</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card next">
+
+                    <div class="row">
+                        
+                        <div class="img"></div>
+
+                        <div class="info">
+
+                            <div class="infoText">
+
+                                <div class="infoText1">
+                                    <div class="name">Morthy</div>
+                                    <div class="status">
+                                        &#128994;Alive - Human</div>
+                                </div>
+
+                                <div class="infoText2">
+                                    <div class="location">Last know location:</div>
+                                    <div class="answer">Planet Earth</div>
+                                </div>
+
+                                <div class="infoText3">
+                                    <div class="location">First seen In:</div>
+                                    <div class="answer">His house</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <div class="card next">
+
+                    <div class="row">
+                        
+                        <div class="img"></div>
+
+                        <div class="info">
+
+                            <div class="infoText">
+
+                                <div class="infoText1">
+                                    <div class="name">Morthy</div>
+                                    <div class="status">
+                                        &#128994;Alive - Human</div>
+                                </div>
+
+                                <div class="infoText2">
+                                    <div class="location">Last know location:</div>
+                                    <div class="answer">Planet Earth</div>
+                                </div>
+
+                                <div class="infoText3">
+                                    <div class="location">First seen In:</div>
+                                    <div class="answer">His house</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="card">
+                    <div class="row">
+                        
+                        <div class="img"></div>
+
+                        <div class="info">
+
+                            <div class="infoText">
+
+                                <div class="infoText1">
+                                    <div class="name">Morthy</div>
+                                    <div class="status">
+                                        &#128994;Alive - Human</div>
+                                </div>
+
+                                <div class="infoText2">
+                                    <div class="location">Last know location:</div>
+                                    <div class="answer">Planet Earth</div>
+                                </div>
+
+                                <div class="infoText3">
+                                    <div class="location">First seen In:</div>
+                                    <div class="answer">His house</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card next">
+
+                    <div class="row">
+                        
+                        <div class="img"></div>
+
+                        <div class="info">
+
+                            <div class="infoText">
+
+                                <div class="infoText1">
+                                    <div class="name">Morthy</div>
+                                    <div class="status">
+                                        &#128994;Alive - Human</div>
+                                </div>
+
+                                <div class="infoText2">
+                                    <div class="location">Last know location:</div>
+                                    <div class="answer">Planet Earth</div>
+                                </div>
+
+                                <div class="infoText3">
+                                    <div class="location">First seen In:</div>
+                                    <div class="answer">His house</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card next">
+
+                    <div class="row">
+                        
+                        <div class="img"></div>
+
+                        <div class="info">
+
+                            <div class="infoText">
+
+                                <div class="infoText1">
+                                    <div class="name">Morthy</div>
+                                    <div class="status"> 
+                                        &#128994; Alive - Human</div>
+                                </div>
+
+                                <div class="infoText2">
+                                    <div class="location">Last know location:</div>
+                                    <div class="answer">Planet Earth</div>
+                                </div>
+
+                                <div class="infoText3">
+                                    <div class="location">First seen In:</div>
+                                    <div class="answer">His house</div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
